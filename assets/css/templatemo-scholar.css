@@ -327,17 +327,21 @@ Header Style
 
 .header-area .main-nav .logo h1 {
   font-size: 20px;
+  text-align: center;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
-  margin-right: 20px;
-  padding-right: 20px;
+  margin-right: 5px;
+  padding-right: 10px;
   border-right: 1px solid rgba(250, 250, 250, 0.3);
 }
-
+.header-area .main-nav .logo img{
+  width: 155px;
+  height: 45px;
+}
 .background-header .main-nav .logo,
 .background-header .main-nav #search {
-  margin-top: 18px;
+  margin-top: 15px;
 }
 
 .header-area .main-nav #search {
@@ -1714,7 +1718,7 @@ body {
     display: none;
   }
   .header-area .main-nav .logo h1 {
-    font-size: 27px;
+    font-size: 25px;
   }
   .header-area .main-nav .logo {
     border-right: none;
